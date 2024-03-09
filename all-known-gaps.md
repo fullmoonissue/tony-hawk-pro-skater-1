@@ -2,13 +2,13 @@
 
 As mentioned in the [Tony Hawk's fandom wiki](https://tonyhawkgames.fandom.com/wiki/Gap) : `A complete gap list for THPS1 was never released.`.
 
-So, how can we be sure that all gaps in THPS1 have been found ?
+So, how can we be sure that all gaps in THPS 1 have been found ?
 
 ## Known Gaps
 
 First, I've searched for websites and videos showing where all the gaps were.
 
-Now, it's [Psychochotics](https://www.youtube.com/playlist?list=PLarzX6CHWKbTnTMawI2ooS_1Nj0SiUfZg) who is showing more gaps than anyone.
+At this time, it's [Psychochotics](https://www.youtube.com/playlist?list=PLarzX6CHWKbTnTMawI2ooS_1Nj0SiUfZg) who is showing more gaps than anyone.
 
 <details>
     <summary>Total gaps / Total unique gaps</summary>
@@ -19,9 +19,9 @@ Now, it's [Psychochotics](https://www.youtube.com/playlist?list=PLarzX6CHWKbTnTM
 
 ## Memory
 
-I decided to search inside the THPS1 game's memory.
+I decided to search inside the THPS 1 game's memory.
 
-To do so, I used BizHawk (the same tool I use to TAS), launch the `Hex Editor` and searched for `TRANSFER`.
+To do so, I used `BizHawk` (the same tool I use to TAS), launch the `Hex Editor` and searched for `TRANSFER`.
 
 It brings me this result.
 
@@ -353,11 +353,11 @@ Ah, some gaps seems not found yet. Let's take a look.
 In the list, we can make some hypothesis :
 
 - Fountain Gap already exists in the list but this one seems to have a typo in its name (the ending square bracket is missing : `[FOUNTAIN GAP` instead of `[FOUNTAIN GAP]`). Hm, this is not a new gap to look for, IMO.
-- In the description of [Downhill Jam's Gaps video](https://www.youtube.com/watch?v=1twwCGuTxkw), Psychochotics (and people in commentary) talks about the reachability of the gap `125 Feet`. In addition, [this video](https://www.youtube.com/watch?v=nY0z5f2xs7o) shows that `150 Feet` is reachable too. But are the others (`175` / `200` / `225` / `250 Feet`) too (if we suppose that those not found gaps are in this level) ? Maybe with a cheat code giving a moon gravity would answer this question.
+- `125 Feet`, `150 Feet` and `175 Feet` have been reached in my [TAS video](https://www.youtube.com/watch?v=DTACy5Dw4Mw). The others (`200` / `225` / `250 Feet`) not yet but are likely to be on the continuity.
 
 But what about the others gaps not found ?
 
-One thing we can notice in the memory gaps listing is that they are (almost) all group by their level.
+One thing we can notice in the memory gaps listing is that they are (almost) all grouped by their level.
 
 Can we deduce that way in which level those missing gaps are ? Let's try.
 
@@ -453,7 +453,7 @@ Can we deduce that way in which level those missing gaps are ? Let's try.
 [ROLL IN CHANNEL GAP] => Roswell
 ```
 
-Not sure for this one, could `Freakin Pool Grind` be in `Roswell` ?
+`Freakin Pool Grind` could be in `Roswell`.
 
 ### Hawk Bridge Grind
 
@@ -488,13 +488,13 @@ Are those missing gaps really implemented in the game ?
 
 Another clue to this investigation is when you search exactly for "Small Water Hazard Gap" (here in Google), only one answer is found : [this code repository](https://github.com/Vadru93/THPS2X-Formats).
 
-It seems that this project dumps the gaps existing in THPS2x. In this game, the levels of THPS1 are playable but, as mentioned in the [associated wiki](https://tonyhawkgames.fandom.com/wiki/Tony_Hawk's_Pro_Skater_2X), `Gap checklist only includes THPS2 levels.`.
+It seems that this project dumps the gaps existing in THPS 2x. In this game, the levels of THPS 1 are playable but, as mentioned in the [associated wiki](https://tonyhawkgames.fandom.com/wiki/Tony_Hawk's_Pro_Skater_2X), `Gap checklist only includes THPS2 levels.`.
 
-Ok, but the fact that some of those missing gaps are present in the codebase of THPS2x is really intriguing.
+Ok, but the fact that some of those missing gaps are present in the codebase of THPS 2x is really intriguing.
 
-### Missing Gaps vs Gaps in THPS2x
+### Missing Gaps vs Gaps in THPS 2x
 
-Missing gaps that are in the dump of THPS2x
+Missing gaps that are in the dump of THPS 2x
 
 - Raging Gorge Gap
 - Small Water Hazard Gap
@@ -502,15 +502,17 @@ Missing gaps that are in the dump of THPS2x
 - Hawk Bridge Grind
 - Are You Kidding?
 
-Missing gaps that are _not_ in the dump of THPS2x
+Missing gaps that are _not_ in the dump of THPS 2x
 
 - Awning Gap
 - Ramp Gap
 - Big Water Hazard Gap
 - Freakin Pool Grind
 
+Does this says that 5 gaps are really missing in THPS 1 ? Arf, can't say, it's just a clue.
+
 ## Conclusion
 
-With this little investigation, I cannot conclude that every gaps in THPS1 have been found yet.
+With this little investigation, I cannot conclude that every gaps in THPS 1 have been found yet.
 
 If you have any additional details, let me know ;-D
